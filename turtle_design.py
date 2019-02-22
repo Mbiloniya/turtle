@@ -3,7 +3,7 @@ x=int(input("enter number of sides"))
 length = int(input("enter the length"))
 angle = int(input("enter the angle"))
 Turtle = turtle.Turtle()
-Turtle.speed(5)
+Turtle.speed(100)
 colors = ['red','green','yellow','blue','orange','violet']
 #DEMO
 
@@ -15,6 +15,6 @@ def design(a):
             Turtle.right(angle)
         # else:
         #     Turtle.forward(length)
-for i in range(100):
+for i in range(1000):
     design(x)
     Turtle.right(13)
