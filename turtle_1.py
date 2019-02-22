@@ -7,7 +7,7 @@ x = 4
 # y = 4
 
 Turtle.speed(1)
-
+#FUNCTION
 def square(a):
     for i in range(a):
         if i < 3:

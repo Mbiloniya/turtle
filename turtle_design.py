@@ -5,6 +5,7 @@ angle = int(input("enter the angle"))
 Turtle = turtle.Turtle()
 Turtle.speed(5)
 colors = ['red','green','yellow','blue','orange','violet']
+#DEMO
 
 def design(a):
     for i in range(a):
